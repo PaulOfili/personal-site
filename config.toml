@@ -1,0 +1,9 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Paul Ofili"
+theme = "hugo-theme-console"
+
+[params]
+
+    linkedin = true
+    twitter = true
