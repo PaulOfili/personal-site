@@ -3,8 +3,18 @@
 <h1>About</h1>
 
 <p>
-Hi there, I am Paul Ofili. Welcome to my blog page and also to my life. I write about what I have learnt that I found interesting. Please do come have a look whenever. <a href="about/">(more)</a>
+Hi there, I am Paul Ofili. Welcome to my blog page and my software engineer journey. I write about what anything of interest during this journey. Please do come have a look whenever. <a href="about/">(not enough?)</a>
 </p>
+<br/>
+<div>
+    <span>
+        Feel free to reach me out on these platforms: 
+    </span>
+    <a href="{{ . }}">Linkedin</a>
+    <a href="{{ . }}">Medium</a>
+    <a href="{{ . }}">Github</a>
+    <a href="{{ . }}">Email</a>
+</div>
 <br/>
 
 <h1>Latest posts</h1>
@@ -21,10 +31,10 @@ Hi there, I am Paul Ofili. Welcome to my blog page and also to my life. I write 
 {{ end }}
 </div>
 
-<!-- <h1>Latest photos</h1> -->
+<h1>Latest projects</h1>
 
-<!-- <div class="image-grid">
-{{ with .Site.GetPage "/photos" }}
+<div class="image-grid">
+{{ with .Site.GetPage "/projects" }}
     {{ range first 3 (sort .Data.Pages "Date" "desc")}}
         <a href="{{ .Permalink }}" title="{{ .Title }}">
         {{ $image := .Page.Resources.GetMatch .Params.image }}
@@ -35,6 +45,6 @@ Hi there, I am Paul Ofili. Welcome to my blog page and also to my life. I write 
         </a>
     {{ end }}
 {{ end }}
-</div> -->
+</div>
 
 {{ end }}
