@@ -21,9 +21,9 @@ I will put my socials here as well, in case you missed it in the landing page. [
 
 Do  have a good read!!! Cheers!!!
 
-The navigation bar is pretty dope, aint it?
+Oh yeah, almost forgot [my resume](https://gohugo.io/themes/installing/).
 
-Oh yeah, almost forgot [my resume](https://gohugo.io/themes/installing/). My bad.
+The navigation bar is pretty dope, aint it?
 
 <!-- ## Installation
 
