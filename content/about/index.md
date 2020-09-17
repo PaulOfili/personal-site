@@ -3,9 +3,6 @@ date = "2016-11-05T21:05:33+05:30"
 title = "About"
 +++
 
-<!-- A minimal, responsive and light theme for Hugo inspired by Linux console. 
-
-![Console](https://github.com/mrmierzejewski/hugo-theme-console/blob/master/images/preview.png?raw=true) -->
 I am Full Stack Web Developer and DevOps Engineer with passion in Artificial Intelligence. My tools 
 
 I build web applications with React as the front-end and Node as the backend. All JavaScript, just the way I like it!
