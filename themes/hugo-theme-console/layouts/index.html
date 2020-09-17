@@ -3,17 +3,16 @@
 <h1>About</h1>
 
 <p>
-Hi there, I am Paul Ofili. Welcome to my blog page and my software engineer journey. I write about what anything of interest during this journey. Please do come have a look whenever. <a href="about/">(not enough?)</a>
+Hi there, I am Paul Ofili. Welcome to my blog page and my software engineering journey. I write about anything of interest during this journey. <a href="about/">(not enough?)</a>
 </p>
-<br/>
 <div>
     <span>
         Feel free to reach me out on these platforms: 
     </span>
-    <a href="{{ . }}">Linkedin</a>
-    <a href="{{ . }}">Medium</a>
-    <a href="{{ . }}">Github</a>
-    <a href="{{ . }}">Email</a>
+    <a href="https://www.linkedin.com/in/paul-ofili-227a2215b/">Linkedin</a>
+    <a href="https://medium.com/@paulofili42">Medium</a>
+    <a href="https://github.com/PaulOfili">Github</a>
+    <a href="mailto:paulofili42@gmail.com">Email</a>
 </div>
 <br/>
 
@@ -30,19 +29,22 @@ Hi there, I am Paul Ofili. Welcome to my blog page and my software engineer jour
     {{ end }}
 {{ end }}
 </div>
+<br/>
 
 <h1>Latest projects</h1>
 
 <div class="image-grid">
 {{ with .Site.GetPage "/projects" }}
-    {{ range first 3 (sort .Data.Pages "Date" "desc")}}
-        <a href="{{ .Permalink }}" title="{{ .Title }}">
+    {{ range first 2 (sort .Data.Pages "Date" "desc")}}
+        <a class="text-align-center" href="{{ .Permalink }}" title="{{ .Title }}">
         {{ $image := .Page.Resources.GetMatch .Params.image }}
         {{ with $image }}
             {{ $thumb := .Resize "400x" }}
-            <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
+            <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive" >
         {{end}}
-        </a>
+        {{ .Title }}
+        <br />  
+        </a> 
     {{ end }}
 {{ end }}
 </div>

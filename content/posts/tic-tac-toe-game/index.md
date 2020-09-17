@@ -1,9 +1,9 @@
 +++
-title = "What is Hugo"
-date = "2019-08-03"
+title = "Tic-Tac-Toe Implementation with JavaScript"
+date = "2019-09-01"
 +++
 
-Hugo is an open-source project and lives by the work of its contributors. There are plenty of open issues, and we need your help to make Hugo even more awesome. You don't need to be a Go guru to contribute to the project's development.
+Here I model the tic-tac-toe with the multiplayer and AI mode all in JavaScript. The minimax algorithm was used in the AI ability to predict the path to take to attain optimum outcome. Let's jump in.
 
 <!--more-->
 

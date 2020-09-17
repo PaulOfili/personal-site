@@ -178,6 +178,11 @@ figure {
             minmax(calc(var(--page-width) / 4), 1fr));
 }
 
+.text-align-center {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 .terminal-prompt::after {
     -webkit-animation: cursor 1s infinite;
     animation: cursor 1s infinite;

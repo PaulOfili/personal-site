@@ -3,10 +3,12 @@ title = "Introduction"
 date = "2019-07-01"
 +++
 
-Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again.
+Hey guys, so I decided to start a blog where I write about my new learnings and experiences. I also plan to give real time updates of the projects I will be working on. They will mainly feature System Design and Full Stack applications. I will be describing the software development life cycle, from the project idea creation, to its set up, development, execution, testing and finally to the deployment phase.
+
 <!--more-->
-Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors.
 
-Websites built with Hugo are extremely fast and secure. Hugo sites can be hosted anywhere, including Netlify, Heroku, GoDaddy, DreamHost, GitHub Pages, GitLab Pages, Surge, Aerobatic, Firebase, Google Cloud Storage, Amazon S3, Rackspace, Azure, and CloudFront and work well with CDNs. Hugo sites run without the need for a database or dependencies on expensive runtimes like Ruby, Python, or PHP.
+I am learning and will still need to learn more Devops concepts to support Continuous Integration and Delivery/Deployment which should be fun, I am looking towards to working with these technologies hands on. These includes but not limited to Docker, Kubernetes, Kafka, ElasticSearch, Cloud Providers like AWS and GCP.
 
-We think of Hugo as the ideal website creation tool with nearly instant build times, able to rebuild whenever a change is made.
+The first project idea I would be writing on is a Remote Multiplayer Tic-Tac-Toe game that has an AI mode. This means you could play with friends anywhere in the world or you could play against the company which never loses and could easily beat you if you do not bring your full game. The remote multiplayer feature will be handled with WebSockets, the front-end of the application would be built with React while the back-end with node. Redis, an in-memory would be used to store the games information.  Finally, Docker would be used to containerize it and prep it for deployment as well as easier development and integration.
+
+So yeah, I hope you are as pump as I am and let's begin, shall we?

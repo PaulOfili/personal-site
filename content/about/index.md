@@ -6,22 +6,22 @@ title = "About"
 <!-- A minimal, responsive and light theme for Hugo inspired by Linux console. 
 
 ![Console](https://github.com/mrmierzejewski/hugo-theme-console/blob/master/images/preview.png?raw=true) -->
-I am Full Stack Web Developer and DevOps Engineer with passion in Artificial Intelligence.
+I am Full Stack Web Developer and DevOps Engineer with passion in Artificial Intelligence. My tools 
 
 I build web applications with React as the front-end and Node as the backend. All JavaScript, just the way I like it!
 
-I dabble with DevOps and system architecture building scalable and portable applications with tools such as Docker, Kubernetes and Jenkins.
+I dabble with DevOps and system architecture building scalable, agile and portable applications with tools such as Docker, Kubernetes and Jenkins to help in the CI/CD pipeline.
 
-As for professional work experience, I worked as a software engineer with Interswitch, a fintech company in Nigeria, then interned with Goldman Sachs in the UK and now, I work as a freelancer consultant or you could catch me building personal projects whenever chanced. I plan to start a series where I build popular system design projects from scratch using skills and language afforementtioned with so more as I learn them. So watch out. 
+As for professional work experience, I worked as a software engineer with Interswitch, a fintech company in Nigeria, then interned with Goldman Sachs in the UK and now, I work as a freelancer consultant or you could catch me building personal projects whenever chanced. I plan to start a series where I build popular system design projects from scratch using skills and language afforementioned with so much more as I learn them. So stay tuned as I am going to document them here.
 
 When not coding, I draw, work out and solve algorithms. I know, quite boring, but that is me.
 
 
-I will put my socials here as well, in case you missed it in the landing page. [Linkedin](https://gohugo.io/themes/installing/) [Medium](https://gohugo.io/themes/installing/) [Github](https://gohugo.io/themes/installing/) [Email](https://gohugo.io/themes/installing/) 
+I will put my socials here as well, in case you don't feel like navigating back. [Linkedin](https://www.linkedin.com/in/paul-ofili-227a2215b/) [Medium](https://medium.com/@paulofili42) [Github](https://github.com/PaulOfili) [Email](mailto:paulofili42@gmail.com) 
 
 Do  have a good read!!! Cheers!!!
 
-Oh yeah, almost forgot [my resume](https://gohugo.io/themes/installing/).
+Oh yeah, almost forgot [my resume](https://drive.google.com/file/d/1-yvOj4Qzb5zd_48rOQEfkkprWIWfhdbZ/view?usp=sharing).
 
 The navigation bar is pretty dope, aint it?
 
