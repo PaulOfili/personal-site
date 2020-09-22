@@ -2,6 +2,7 @@ baseURL = "https://www.paulofili.com"
 languageCode = "en-us"
 title = "Paul Ofili"
 theme = "hugo-theme-console"
+disqusShortname = "paulofili"
 
 [params]
   # Cutting off the page title to two chars for mobile (console-demo -> co)
