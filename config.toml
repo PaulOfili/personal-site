@@ -6,7 +6,7 @@ disqusShortname = "paulofili"
 
 [params]
   # Cutting off the page title to two chars for mobile (console-demo -> co)
-  titleCutting = true
+  titleCutting = false
   linkedin = false
   twitter = false
   

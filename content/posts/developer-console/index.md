@@ -3,7 +3,7 @@ title = "Interswitch Developer Console"
 date = "2020-08-04"
 +++
 
-During my Industrial Training last year, I worked with Interswitch as a Software Engineering where I got to work on a lot of cool projects. One of which was Developer Console. In this article, I will take you through the new user interface, technologies used, architectural design and why we decided to use those particular technologies.
+During my Industrial Training last year, I worked with Interswitch as a Software Engineering where I got to work on a lot of cool projects. One of which was Developer Console. In this article, I will take you through the new user interface, technologies used, architectural design and why we decided to use these technologies.
 
 <!--more-->
 

@@ -97,6 +97,10 @@ h1 {
     margin-bottom: 150px;
 }
 
+pre code {
+    overflow: auto;
+}
+
 .content-column-content p,
 .content-column-content li {
     color: #666;
@@ -225,6 +229,10 @@ figure {
         width: 2ch;
         overflow: hidden;
         display: inline-block;
+    }
+
+    .wrap {
+        white-space: normal;
     }
 
     .terminal-nav {
