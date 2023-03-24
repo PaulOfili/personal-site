@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<h1>About</h1>
+
+<p>
+Hi there, I am Paul Ofili. Welcome to my blog page and my software engineering journey. I write about anything of interest during this journey. <a href="about/">(more)</a>
+</p>
+<div>
+    <span>
+        Feel free to reach me out on these platforms: 
+    </span>
+    <a href="https://www.linkedin.com/in/paul-ofili-227a2215b/">Linkedin</a>
+    <a href="https://medium.com/@paulofili42">Medium</a>
+    <a href="https://github.com/PaulOfili">Github</a>
+    <a href="mailto:paulofili42@gmail.com">Email</a>
+</div>
+<br/>
+
+<h1>Latest posts</h1>
+
+<div class="posts-list">
+{{ with .Site.GetPage "/posts" }}
+    {{ range first 3 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+        <div class="post">
+            <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>    
+            <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+            {{ .Summary }}
+        </div>    
+    {{ end }}
+{{ end }}
+</div>
+
+{{ end }}

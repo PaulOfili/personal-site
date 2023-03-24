@@ -18,7 +18,3 @@ disqusShortname = "paulofili"
   [[params.navlinks]]
   name = "posts/"
   url = "posts/"
-
-  [[params.navlinks]]
-  name = "projects/"
-  url = "projects/"
