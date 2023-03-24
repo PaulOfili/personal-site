@@ -3,6 +3,7 @@ image = "tic-tac-toe.jpg"
 date = "2020-09-17"
 title = "Multiplayer Tic-Tac-Toe with AI mode"
 type = "gallery"
+draft = true
 +++
 
 Tic-tac-toe game with AI and remote multiplayer mode.
