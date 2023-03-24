@@ -1,6 +1,7 @@
 +++
 title = "Tic-Tac-Toe Implementation with JavaScript"
 date = "2020-09-01"
+draft = true
 +++
 
 Here I model the famous tic-tac-toe game with multiplayer and AI mode all in JavaScript. The minimax algorithm was used by the AI to predict the path to take to attain optimum outcome. Sounds fun right? Let's jump in.
